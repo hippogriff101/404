@@ -1,0 +1,39 @@
+body {
+    background-color: #1A3263;
+    color: #E8E2DB;
+}
+
+#cent {
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+
+#title {
+    text-align: center;
+    font-family: "WDXL Lubrifont JP N", monospace;
+    font-size: 100px;
+}
+
+
+#title span {
+    display: inline-block;
+    transition: font-size 0.2s ease-in-out;
+}
+
+#title span:hover {
+    font-size: 200px;
+}
+
+img {
+    width: 100px; 
+    height: auto;
+    transition: all .2s ease-in-out
+}
+
+img:hover {
+    width: 200px;
+}
