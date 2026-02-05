@@ -37,3 +37,7 @@ img {
 img:hover {
     width: 200px;
 }
+
+footer {
+    font-size: x-small;
+}
